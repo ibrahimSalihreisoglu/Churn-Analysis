@@ -26,10 +26,6 @@ This project covers an end-to-end churn workflow:
 - Streamlit app:
   - Predict churn probability for a new customer profile
 
-## How to Run
-```bash
-pip install -r requirements.txt
-streamlit run app.py
 # =========================================================
 # Churn-Analysis
 # Customer churn analysis & prediction using Python.
