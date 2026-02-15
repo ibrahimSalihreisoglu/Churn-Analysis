@@ -26,7 +26,3 @@ This project covers an end-to-end churn workflow:
 - `src/` : helper functions (optional)
 - `requirements.txt` : dependencies
 
-## How to Run
-```bash
-pip install -r requirements.txt
-streamlit run app.py
