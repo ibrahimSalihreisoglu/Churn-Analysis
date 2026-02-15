@@ -1,26 +1,35 @@
-# Churn Analizi
+# Churn Analysis
 
-Python ile müşteri kaybı (churn) analizi ve tahmini:  
-EDA → özellik mühendisliği → segmentasyon → istatistiksel testler → modelleme → değerlendirme → Streamlit tahmin formu
+Customer churn analysis & prediction using Python:  
+EDA → feature engineering → segmentation → statistical tests → modeling → evaluation → Streamlit prediction form.
 
-## Kullanılan Teknolojiler
+## Tech Stack
 Python, pandas, numpy, scikit-learn, XGBoost, matplotlib, seaborn, scipy, statsmodels, Streamlit
 
-## Proje İçeriği
-- Veri keşfi ve temizleme (EDA)
-- Özellik mühendisliği (yaş grubu, abonelik süresi grubu)
-- Segment bazlı churn analizi (şehir, paket, cinsiyet, reason code)
-- İstatistiksel testler (Mann–Whitney U, Welch t-test, Ki-kare + Cramér’s V)
-- Modeller: Logistic Regression, Decision Tree, Random Forest, XGBoost
-- Metrikler: Accuracy, Precision, Recall, F1, ROC-AUC
-- Görselleştirme: Confusion Matrix, ROC, Precision–Recall
-- Streamlit ile yeni müşteri churn olasılığı tahmini
+## Project Overview
+This project covers an end-to-end churn workflow:
+- Data exploration & cleaning (EDA)
+- Feature engineering (Age group, Subscription duration group)
+- Segment-based churn analysis (City, Package, Gender, Reason code)
+- Statistical tests:
+  - Mann–Whitney U (for non-normal numeric comparisons)
+  - Welch’s t-test (AGE comparison)
+  - Chi-square + Cramér’s V (categorical associations)
+- ML models:
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - XGBoost
+- Evaluation:
+  - Accuracy, Precision, Recall, F1, ROC-AUC
+  - Confusion Matrix, ROC Curve, Precision–Recall Curve
+- Streamlit app:
+  - Predict churn probability for a new customer profile
 
-## Çalıştırma
+## How to Run
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-```python
 # =========================================================
 # Churn-Analysis
 # Customer churn analysis & prediction using Python.
