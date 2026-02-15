@@ -20,9 +20,3 @@ This project covers an end-to-end churn workflow:
 - scipy, statsmodels
 - Streamlit
 
-## Project Structure (suggested)
-- `app.py` : Streamlit app (UI + plots)
-- `notebooks/` : optional EDA/modeling notebooks
-- `src/` : helper functions (optional)
-- `requirements.txt` : dependencies
-
