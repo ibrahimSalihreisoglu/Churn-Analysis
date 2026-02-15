@@ -1,3 +1,25 @@
+# Churn Analizi
+
+Python ile müşteri kaybı (churn) analizi ve tahmini:  
+EDA → özellik mühendisliği → segmentasyon → istatistiksel testler → modelleme → değerlendirme → Streamlit tahmin formu
+
+## Kullanılan Teknolojiler
+Python, pandas, numpy, scikit-learn, XGBoost, matplotlib, seaborn, scipy, statsmodels, Streamlit
+
+## Proje İçeriği
+- Veri keşfi ve temizleme (EDA)
+- Özellik mühendisliği (yaş grubu, abonelik süresi grubu)
+- Segment bazlı churn analizi (şehir, paket, cinsiyet, reason code)
+- İstatistiksel testler (Mann–Whitney U, Welch t-test, Ki-kare + Cramér’s V)
+- Modeller: Logistic Regression, Decision Tree, Random Forest, XGBoost
+- Metrikler: Accuracy, Precision, Recall, F1, ROC-AUC
+- Görselleştirme: Confusion Matrix, ROC, Precision–Recall
+- Streamlit ile yeni müşteri churn olasılığı tahmini
+
+## Çalıştırma
+```bash
+pip install -r requirements.txt
+streamlit run app.py
 ```python
 # =========================================================
 # Churn-Analysis
